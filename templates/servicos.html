@@ -1,10 +1,28 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Serviços</h1>
-<ul>
-    <li>Desenvolvimento Web</li>
-    <li>Aplicativos</li>
-    <li>Consultoria</li>
-</ul>
+<h1 class="text-center mb-5">Nossos Serviços</h1>
+
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <div class="card p-4 shadow h-100">
+            <h5>Desenvolvimento Web</h5>
+            <p>Sites e sistemas modernos com alta performance.</p>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card p-4 shadow h-100">
+            <h5>Aplicativos Mobile</h5>
+            <p>Apps para Android e iOS focados na experiência do usuário.</p>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card p-4 shadow h-100">
+            <h5>Consultoria Tech</h5>
+            <p>Estratégias para escalar seu negócio com tecnologia.</p>
+        </div>
+    </div>
+</div>
 {% endblock %}
