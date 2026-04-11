@@ -23,17 +23,19 @@ A página de contato conta com um formulário funcional que permite o envio de m
 
 ### 🏠 Home
 
-![Home](images/DevSync Home.png)
+![Home](images/home.png)
 
 ### 🧾 Serviços
 
-![Serviços](images/DevSync Servicos.png)
+![Serviços](images/servicos.png)
 
 ### 📬 Contato
 
-![Contato](images/DevSync  Contato.png)
+![Contato](images/contato.png)
 
-> 📁 Crie uma pasta chamada `images` na raiz do projeto e adicione os prints do sistema.
+### ℹ️ Sobre
+
+![Sobre](images/sobre.png)
 
 ---
 
@@ -52,7 +54,7 @@ A página de contato conta com um formulário funcional que permite o envio de m
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/devsync.git
+git clone https://github.com/Arthur-Pereira-Carvalho/site-institucional-django.git
 ```
 
 ---
@@ -60,7 +62,7 @@ git clone https://github.com/seu-usuario/devsync.git
 ### 2. Acesse a pasta do projeto
 
 ```bash
-cd devsync
+cd site-institucional-django
 ```
 
 ---
@@ -135,13 +137,11 @@ Esses dados são armazenados no banco de dados SQLite e podem ser acessados pelo
 
 ## 🔐 Acesso ao painel administrativo
 
-Para acessar o admin:
-
 ```
 http://127.0.0.1:8000/admin/
 ```
 
-> ⚠️ É necessário criar um superusuário antes:
+> ⚠️ Para acessar, crie um superusuário:
 
 ```bash
 python manage.py createsuperuser
@@ -157,6 +157,10 @@ site-institucional-django/
 ├── mainapp/
 ├── templates/
 ├── images/
+│   ├── home.png
+│   ├── servicos.png
+│   ├── contato.png
+│   └── sobre.png
 ├── manage.py
 └── README.md
 ```
