@@ -141,11 +141,14 @@ Esses dados são armazenados no banco de dados SQLite e podem ser acessados pelo
 http://127.0.0.1:8000/admin/
 ```
 
-> ⚠️ Para acessar, crie um superusuário:
+> ⚠️ O banco de dados é criado automaticamente ao executar as migrações.
+> Para acessar o painel administrativo, é necessário criar um superusuário:
 
 ```bash
 python manage.py createsuperuser
 ```
+
+> Após a criação, utilize as credenciais definidas para realizar o login no painel.
 
 ---
 
